@@ -1,0 +1,29 @@
+/* Example styles for the timeline */
+
+.timelineLine {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+  
+  .timelineProgress {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #007bff;
+    transition: width 0.3s ease;
+  }
+  
+  .timelineStep {
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    flex: 1;
+  }
+  
+  .timelineStep.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
